@@ -6,9 +6,9 @@ public class Test {
 
         // Power on the first phone by calling the Phone class and getting the phone by IMEI
         Phone firstPhone = Phone.getPhoneByIMEI("123456789012345");
-        if (firstPhone != null) {
+
             firstPhone.togglePower();
-        }
+
         // Make calls
         Phone.makeCall("123456789012345", "*#060#");
         Phone.makeCall("123456789012345", "2024561414");

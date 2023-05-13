@@ -54,6 +54,7 @@ public class Phone {
                             System.out.println("Call initiated to " + numberToCall);
                         }
                         return;
+                    } else {
                     }
                 }
             }
